@@ -11,6 +11,7 @@ from app.plugins.multiply import MultiplyCommand
 from app.plugins.divide import DivideCommand
 
 
+
 def test_add_command(capfd, monkeypatch):
     """
     Test the AddCommand to ensure that the addition of two numbers is computed and displayed correctly.
